@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundo del Chocolate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mundo del Chocolate</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="#">Tipos</a>
+          <ul class="submenu">
+            <li><a href="#">Negro</a></li>
+            <li><a href="#">Con leche</a></li>
+            <li><a href="#">Blanco</a></li>
+          </ul>
+        </li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenido">
+      <h2>¿Qué es el chocolate?</h2>
+      <p>El chocolate es un alimento derivado del cacao que ha deleitado a generaciones. Se presenta en diversas formas y sabores,
+              siendo un símbolo de amor y placer.</p>
+      
+      <img src="cocolate.jfif" alt="chocolate delicioso" class="img-principal">
+
+      <h3>Beneficios del Chocolate Negro</h3>
+      <ul>
+        <li>Es rico en antioxidantes</li>
+        <li>Mejora el estado de ánimo</li>
+        <li>Puede mejorar la salud cardiovascular</li>
+      </ul>
+
+      <h3>Video: ¿Cómo se presenta el chocolate?</h3>
+      <video controls width="500">
+        <source src="SPOT CHOCOLATE 🍫 🍫 VIDEO PRODUCTO _ TABLETOP.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+
+      <h3>Audio: audio chocolatoso </h3>
+      <audio controls>
+        <source src="¡Chocolate (Choco-choco) _ _ Canciones Infantiles LooLoo _ Videos para Bebés [H5Da2nX-yDk].mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+      </audio>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <img src="chocolate imagen.jfif" alt="tipos de chcolates" class="img-galeria">
+      <img src="derretidoimagen.jpeg" alt="chocolate derretido " class="img-galeria">
+      <img src="chocolate imagen.jfif" alt="leche, amargo y semi" class="img-galeria">
+      <img src="bebidaimagen.jpeg" alt="en bebida" class="img-galeria">
+      <img src="pastel.jpeg" alt="en pastel" class="img-galeria">
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mundo del Chocolate. Todos los derechos reservados.</p>
+    <p><a href="https://es.wikipedia.org/wiki/Chocolate" target="_blank">Saber más sobre el chocolate</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

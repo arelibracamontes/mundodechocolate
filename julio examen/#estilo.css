@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #3e2c1c;
+  }
+  
+  header {
+    background-color: #5c3d2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav .menu {
+    list-style: none;
+    padding: 0;
+    background-color: #a97458;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .menu > li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #c89f94;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #3e2c1c;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .img-principal, .img-galeria {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
+  form {
+    background-color: #f2e4d7;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #a97458;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #5c3d2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
